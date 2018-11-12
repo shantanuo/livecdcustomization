@@ -7,7 +7,7 @@ Ubuntu Live CD customisation
     sudo aptitude install squashfs-tools genisoimage
 
 3) Run
-    ./setupImage.bash <iso file>
+    ./setupImage.bash iso_file
   to extract the iso image to `iso-extract` and the underlying image to `iso-modified`
 
 4) Run
@@ -21,5 +21,5 @@ to do main actions
 6) Type `exit` to exit out of the chroot environment
 
 7) Run
-    ./createIso.bash <output iso file name>
+    ./createIso.bash output_iso_file_name
 to make the output iso
