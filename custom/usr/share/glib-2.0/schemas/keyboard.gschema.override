@@ -1,0 +1,3 @@
+[org.gnome.desktop.wm.keybindings]
+switch-input-source=['<Primary><Shift>m']
+switch-input-source-backward=['<Primary><Shift>e']
